@@ -11,7 +11,7 @@ public class Snail {
         var a = scanner.nextInt();
         var b = scanner.nextInt();
         var h = scanner.nextInt();
-        if ((a == b && a > h) || (a > b && a > h)) {
+        if ((a == b && a > h) || (a > b && a > h) || (a < b && a >= h)) {
             int total = 1;
             System.out.println(total);
         } else if (a > b && a < h) {
